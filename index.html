@@ -21,7 +21,8 @@
             </header> 
             <h1><span>The Healthy</span> Eating Experience</h1>
 
-            <p>This page is under construction</p>
+            
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam esse sint error vitae laborum ratione fuga minus maiores commodi. Natus.</p>
 
             <!--This is a form-->
             <div class="form-container">
@@ -29,14 +30,13 @@
                     <div class="form-left">
                         <label for="city">Enter your city:</label>
                         <input type="text" name="city" id="city">
-                        <p> Example: "San Diego</p>
+                        <p>Example: "San Diego"</p>
                     </div>
-                    
-                    <input type="button" value="Find Food Now" id="cta-btn"> 
+
+                    <input type="button" value="Find Food Now" id="cta-btn">
                 </form>
             </div>
-
-        </section> 
+        </section>
     </div>
 
 
@@ -46,7 +46,8 @@
     <section class="authentic">
         <div class="right-col">
             <h2>Authentic. Awesome</h2>
-            <p>Under construction2</p>
+            
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam esse sint error vitae laborum ratione fuga minus maiores commodi. Natus.</p>
 
         </div>
         <img src="images/food.jpg" alt="Picture of food in a bowl">
@@ -58,17 +59,17 @@
 
     <script>
 
-        let btn = document.getElementById("cta-btn");
+        let btn = document.getElementById('cta-btn');
+        let overlay = document.getElementById('overlay');
 
-        btn.addEventListener("click", () => {
-
-
+        btn.addEventListener('click', () => {
+            overlay.style.display = 'grid';
+            overlay.classList.add('animate-overlay')
         })
-
-
-
-
     </script>
+
+
+
 
 </body>
 </html>
